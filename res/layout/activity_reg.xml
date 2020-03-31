@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="139dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="46dp"
+        android:layout_y="212dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etUserPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="283dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etUserNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="355dp"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="431dp"
+        android:text="Register" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="505dp"
+        android:text="Already Registered ? Log In" />
+</AbsoluteLayout>
