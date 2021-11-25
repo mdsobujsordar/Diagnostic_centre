@@ -1,2 +1,2 @@
 # Diagnostic_centre
-Diagnostic centre online booking system
+Nearby Diagnostic centre search
